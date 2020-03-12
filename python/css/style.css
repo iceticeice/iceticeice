@@ -12,7 +12,7 @@
         background-color: #D3D3D3;
         font-family: arial, sans-serif;
         font-size: 25px;
-        line-height: 400%;
+        color: black;
 }
 
 .block2 {
@@ -32,26 +32,49 @@
   font-size: 35px;
   float: left;
 }
+a{
+  color: green;
+}
 
 li1 {
   width: 50px;
   height: 175px;
-  color: green;
+          line-height: 465%;
 }
-li2 {
-  color: red;
+li2{
+          line-height: 465%;
 }
 li3 {
   position: relative;
-  color: blue;
+          line-height: 465%;
 }
 li4 {
   position: relative;
+          line-height: 465%;
+}
+li5{
+  position: relative;
+        line-height: 465%;
+}
+li6{
+          line-height: 200%;
 }
 .navigation {
   line-height: 100%;
+  font-style: italic;
 }
-
+.python{
+  font-size: 25px;
+}
+.useful-sources{
+ font-size: 25px;
+}
+.books{
+  font-size: 25px;
+}
+.django{
+  font-size: 25px;
+}
 body {
   font-family: arial, sans-serif;
   padding: 0;
@@ -62,4 +85,8 @@ header{
   margin-left:100px;
   margin-right:400px;
   margin-top: -50px;
+}
+
+html{
+  position: absolute;
 }
